@@ -1,4 +1,4 @@
-# optrisk: options pricing and portfolio risk engine
+# OptRisk: options pricing and portfolio risk engine
 
 A Python package that prices European options three ways, backs out implied volatility, and revalues a portfolio under spot, volatility and time shocks. The numerical methods are implemented from scratch. QuantLib is used only as an independent reference in the validation suite.
 
@@ -158,6 +158,4 @@ docs/                 CONVENTIONS.md  ASSUMPTIONS_LIMITATIONS.md
 reports/              validation_report.md quantlib_comparison.md benchmark_report.md demo/
 ```
 
-## Not included
 
-Finite-difference engine, C++ kernel and the inventory-aware quote generator (the optional extensions); volatility smiles; discrete dividends; live market data. See `docs/ASSUMPTIONS_LIMITATIONS.md`.
