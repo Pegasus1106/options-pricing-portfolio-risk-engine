@@ -1,0 +1,4 @@
+underlying,valuation_date,spot,rate,dividend_yield,volatility
+SIM_A,2026-01-05,100.0,0.04,0.015,0.22
+SIM_B,2026-01-05,250.0,0.04,0.0,0.35
+SIM_C,2026-01-05,50.0,0.04,0.03,0.28
